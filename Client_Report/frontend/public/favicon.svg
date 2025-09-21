@@ -1,0 +1,18 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <rect width="220" height="220" rx="40" fill="#1877F2"/>
+
+  <!-- Neural Infinity -->
+
+  <circle cx="111" cy="50" r="6" fill="#42B883"/>
+  
+      <circle cx="81" cy="160" r="8" fill="white"/>
+  <circle cx="141" cy="160" r="8" fill="white"/>
+  <circle cx="51" cy="120" r="8" fill="white"/>
+  <circle cx="171" cy="120" r="8" fill="white"/>
+  <circle cx="111" cy="60" r="8" fill="white"/>
+  <path d="M81 160 Q111 100 111 60" stroke="white" stroke-width="3" fill="none"/>
+  <path d="M141 160 Q111 100 111 60" stroke="white" stroke-width="3" fill="none"/>
+  <path d="M171 120 Q111 100 111 60" stroke="white" stroke-width="3" fill="none"/>
+    <path d="M51 120 Q111 100 111 60" stroke="white" stroke-width="3" fill="none"/>
+</svg>

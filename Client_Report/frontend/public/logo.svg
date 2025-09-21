@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220">
+  <rect width="700" height="220" fill="white"/>
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1877F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#145DBD;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#42B883;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#35936B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Data Flow Star -->
+
+
+ <circle cx="235" cy="59" r="6" fill="#42B883"/>
+  
+    <circle cx="205" cy="170" r="8" fill="#1877F2"/>
+  <circle cx="265" cy="170" r="8" fill="#1877F2"/>
+  <circle cx="175" cy="130" r="8" fill="#1877F2"/>
+  <circle cx="295" cy="130" r="8" fill="#1877F2"/>
+  <circle cx="235" cy="70" r="8" fill="#1877F2"/>
+  <path d="M205 170 Q235 100 235 70" stroke="#1877F2" stroke-width="3" fill="none"/>
+  <path d="M265 170 Q235 100 235 70" stroke="#1877F2" stroke-width="3" fill="none"/>
+  <path d="M175 130 Q235 100 235 70" stroke="#1877F2" stroke-width="3" fill="none"/>
+    <path d="M295 130 Q235 100 235 70" stroke="#1877F2" stroke-width="3" fill="none"/>
+  
+  <!-- Company Name -->
+  <text x="329" y="135" font-family="Helvetica, Arial, sans-serif"
+        font-size="51" font-weight="600" fill="#1877F2">
+     Workflux<tspan fill="#42B883">Ai</tspan>
+  </text>
+  <text x="349" y="155" font-family="Helvetica, Arial, sans-serif"
+        font-size="16" fill="#42B883">
+     Automate. Accelerate. Achieve.
+  </text>
+</svg>
+
+
