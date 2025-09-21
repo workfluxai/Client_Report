@@ -1,0 +1,48 @@
+# ----------------------
+# Node / JavaScript
+# ----------------------
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ----------------------
+# Build outputs
+# ----------------------
+# Next.js
+.next/
+out/
+# Vercel/Netlify build artifacts
+.vercel/
+.netlify/
+
+# Backend build
+dist/
+build/
+
+# ----------------------
+# Environment variables (keep secrets OUT of git)
+# ----------------------
+.env
+.env.*        # like .env.local, .env.production etc.
+!env.example  # EXCEPT: commit template files
+
+# ----------------------
+# OS-specific junk
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE-specific junk
+# ----------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs
