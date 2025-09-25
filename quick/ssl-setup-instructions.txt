@@ -1,0 +1,40 @@
+# 📜 SSL Certificate Setup Instructions
+
+## 🔐 Upload Your Ionos Wildcard SSL Certificate
+
+Since you have Ionos wildcard SSL certificate, you need to upload it to your Hetzner server:
+
+### Step 1: Download SSL files from Ionos
+1. Login to Ionos control panel
+2. Go to SSL certificates section
+3. Download your wildcard certificate files:
+   - `workfluxai.crt` (certificate file)
+   - `workfluxai.key` (private key file)
+   - `ca-bundle.crt` (certificate authority bundle - optional)
+
+### Step 2: Upload to your Hetzner server
+```bash
+# Create SSL directories
+sudo mkdir -p /etc/ssl/certs
+sudo mkdir -p /etc/ssl/private
+
+# Upload your files (replace with your actual file names)
+sudo cp workfluxai.crt /etc/ssl/certs/
+sudo cp workfluxai.key /etc/ssl/private/
+
+# Set proper permissions
+sudo chmod 644 /etc/ssl/certs/workfluxai.crt
+sudo chmod 600 /etc/ssl/private/workfluxai.key
+
+# Restart nginx to apply SSL
+sudo systemctl restart nginx
+```
+
+### Step 3: Test SSL
+```bash
+# Test your SSL setup
+openssl s_client -connect n8n.workfluxai.com:443 -servername n8n.workfluxai.com
+```
+
+## 🆘 If SSL doesn't work immediately:
+You can temporarily use HTTP by commenting out the SSL sections in nginx config and restart nginx.
